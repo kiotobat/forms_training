@@ -1,4 +1,15 @@
 {
+  "name": "forms_training",
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Spartak",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint . --fix",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
